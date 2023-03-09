@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHARKSNOW</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/45ca7613fb.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="82">
+
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-1 w-100 py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-snowboarding"></i> shark<span class="blue-text">snow</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-person-biking"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="#home">Home</a>
+                    <a class="nav-link" href="#aboutus">o nas</a>
+                    <a class="nav-link" href="#portfolio">wyjazdy</a>
+                    <a class="nav-link" href="#prices">ceny</a>
+                    <a class="nav-link" href="#team">nasz zespół</a>
+                    <a class="nav-link" href="#achievements">nagrody</a>
+                    <a class="nav-link" href="#contact">kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<header id="home">
+    <div class="hero-img">
+        <div class="hero-shadow"></div>
+        <div class="hero-text">
+            <h1 data-aos="fade-up"  data-aos-delay="200">Witaj w <span class="blue-text"> szark</span> snow</h1>
+           
+            <p data-aos="fade-up"  data-aos-delay="400">w miejscu gdzie naszą pasją jest nauka i jazda na snowboardzie i nartach </p> 
+            <a data-aos="fade-up"  data-aos-delay="600" href="#aboutus" type="button" class="btn btn-outline-light">Poznaj nas</a>
+        </div>
+
+        <a href="#aboutus"><i class="fas fa-chevron-down bounce-top"></i></a>
+        
+    </div>
+</header>
+
+<main>
+    <section id="aboutus" class="aboutus bg-light py-5">
+
+        <div class="container">
+
+            <h2>O nas</h2>
+            <div class="underline"></div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in"  data-aos-delay="100">
+                    <p><i class="fas fa-snowboarding"></i></p>
+                    <p class="aboutus-card-title mb-1">snowboard</p>
+                    <p class="aboutus-card-text">nauka jazdy na desce</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in"  data-aos-delay="200">
+                    <p><i class="fas fa-skiing"></i></p>
+                    <p class="aboutus-card-title mb-1">ski</p>
+                    <p class="aboutus-card-text">nauka jazdy na nartach</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in"  data-aos-delay="300">
+                    <p><i class="fas fa-skiing-nordic"></i></p>
+                    <p class="aboutus-card-title mb-1">skiing-nordic</p>
+                    <p class="aboutus-card-text">wyjścia na wyprawy snb / ski</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in" 
+                data-aos-delay="400">
+                    <p><i class="fas fa-dog"></i></p>
+                    <p class="aboutus-card-title mb-1">kochamy zwierzęta</p>
+                    <p class="aboutus-card-text">masz psiaka? z chęcią zaopiekujemy się nim na czas zajęć</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in"  data-aos-delay="500">
+                    <p><i class="fas fa-utensils"></i></p>
+                    <p class="aboutus-card-title mb-1">lubimy dobrze zjeść</p>
+                    <p class="aboutus-card-text">nad nami jest bardzo dobra knajpa</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4 text-center aboutus-hover" data-aos="zoom-in"  data-aos-delay="600">
+                    <p><i class="fas fa-beer"></i></p>
+                    <p class="aboutus-card-title mb-1">świetne relacje</p>
+                    <p class="aboutus-card-text">w czasie wolnym wyskoczymy na piwko</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutus-hero py-5">
+        <div class="aboutus-shadow"></div>
+
+            <div class="container py-5">
+                
+                <h2>więcej</h2>
+                <div class="underline"></div>
+                
+                <div class="row">
+
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="700">
+                        <p><i class="fas fa-charging-station"></i></p>
+                        <p class="aboutus-hero-title mb-1">INFORMACJE</p>
+                        <p class="aboutus-hero-text">na parkingu szybka ładowarka samochodowa</p>
+                    </div>
+
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="800">
+                        <p><i class="fas fa-info"></i></p>
+                        <p class="aboutus-hero-title mb-1">PYTANIA</p>
+                        <p class="aboutus-hero-text">pomożemy dobrać odpowiedni sprzęt</p>
+                    </div>
+
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="900">
+                        <p><i class="fas fa-map-marker-alt"></i></p>
+                        <p class="aboutus-hero-title mb-1">LOKALIZACJA</p>
+                        <p class="aboutus-hero-text">ul. Słotwińska</p>
+                    </div>
+                </div>
+             </div>
+    </section>
+
+    <section id="portfolio" class="portfolio py-5">
+
+        <h2>wyjazdy</h2>
+        <div class="underline"></div>
+
+        <div class="container pb-4">
+            <!-- Portfolio na mobile -->
+
+            <div class="card-group d-lg-none">
+
+                <div class="card me-sm-3">
+                  <img src="img/riders-1939640_1920.jpg" class="card-img-top" alt="strona1">
+                  <div class="card-body">
+                    <h5 class="card-title">SNOWPARK</h5>
+                    <p class="card-text">niedaleko nas znajduje się super-nowoczesny snowpark</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="img/slope-4862445_1920.jpg" class="card-img-top" alt="strona2">
+                  <div class="card-body">
+                    <h5 class="card-title">POWDER ALERT</h5>
+                    <p class="card-text">zabieramy na wyprawy freeridowe i backcountry</p>
+                  </div>
+                </div>
+              </div>
+
+            <!-- Portfolio na desktopy -->
+
+            <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block" data-bs-ride="false">
+
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/riders-1939640_1920.jpg" class="d-block w-100" alt="strona1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>SNOWPARK</h5>
+                      <p>niedaleko nas znajduje się super-nowoczesny snowpark</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="img/slope-4862445_1920.jpg" class="d-block w-100" alt="strona2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>POWDER ALERT</h5>
+                      <p>zabieramy na wyprawy freeridowe i backcountry</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+         </div>
+    </section>
+
+    <section id="prices" class="prices py-5 bg-light">
+
+        <h2>cennik</h2>
+        <div class="underline"></div>
+
+        <div class="container">
+
+            <div class="price-wrap row text-center justify-content-center">
+                
+                <div class="col-md-6 col-xl-4">
+                    <div class="price-box">
+                        <h3>snowboard <i class="fas fa-snowboarding"></i></h3>
+                        <hr>
+                        <p><span>Kategoria: </span>POCZĄTKUJĄCY</p>
+                        <p><span>Czas:  </span>55min</p>
+                        <p><span>Karnet:  </span>6 zjazdów</p>
+                        <p><span>Lokalizacja:  </span>Zółwik</p>
+                        <p class="price-tag">140zł</p>
+                        <button class="btn btn-secondary">zamawiam</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4">
+                    <div class="price-box">
+                        <h3>ski <i class="fas fa-skiing"></i></h3>
+                        <hr>
+                        <p><span>Kategoria: </span>POCZĄTKUJĄCY</p>
+                        <p><span>Czas:  </span>55min</p>
+                        <p><span>Karnet:  </span>4 zjazdów</p>
+                        <p><span>Lokalizacja:  </span>Zółwik</p>
+                        <p class="price-tag">140zł</p>
+                        <button class="btn btn-primary">zamawiam</button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4">
+                    <div class="price-box">
+                        <h3>skiing-nordic <i class="fas fa-skiing-nordic"></i></h3>
+                        <hr>
+                        <p><span>Kategoria: </span>Zaawansowany</p>
+                        <p><span>Czas:  </span>55min</p>
+                        <p><span>Karnet:  </span>2 zjazdów</p>
+                        <p><span>Lokalizacja:  </span>Trasa flis</p>
+                        <p class="price-tag">160zł</p>
+                        <button class="btn btn-secondary">zamawiam</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="price-info">Skorzystaj z odpowiednich zajęć dla Ciebie, lub <a href="#contact">skontaktuj się</a> z nami i zarezerwuj odpowiedni termin.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team py-5">
+
+        <h2>nasz zespół</h2>
+        <div class="underline"></div>
+
+        <div class="container">
+            <div class="card-group team-carousel">
+
+                <div class="card mx-3">
+                  <img src="img/team/beard-1845166_1920.jpg" class="card-img-top" alt="piotrek">
+                  <div class="card-body">
+                    <h5 class="card-title">Piotrek</h5>
+                    <p class="card-text">Pomaga dobrać odpowiedni sprzęt. Śmieszny, zabawny i pozytywny</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=pl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://pl.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+
+                <div class="card mx-3">
+                  <img src="img/team/hat-591973_1920.jpg" class="card-img-top" alt="michal">
+                  <div class="card-body">
+                    <h5 class="card-title">Andrzej</h5>
+                    <p class="card-text">Instruktor jazdy na snowboardzie i nartach. Zajęcia indywidualne oraz grupowe.</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=pl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://pl.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+
+                <div class="card mx-3">
+                  <img src="img/team/stefan.jpg" class="card-img-top" alt="michal">
+                  <div class="card-body">
+                    <h5 class="card-title">Stefan</h5>
+                    <p class="card-text">Serwisant.</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=pl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://pl.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+
+                <div class="card mx-3">
+                  <img src="img/team/human-3782189_1920.jpg" class="card-img-top" alt="Bartek">
+                  <div class="card-body">
+                    <h5 class="card-title">Bartek</h5>
+                    <p class="card-text">Szef wszystkich szefów. Zaopatrzeniowiec</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-around">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/?lang=pl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://pl.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="team-shadow"></div>
+    </section>
+
+    <section id="achievements" class="achievements py-5">
+
+        <h2>nagrody</h2>
+        <div class="underline"></div>
+
+        <div class="container">
+            <div class="row text-center  achievements-list">
+
+                <div class="col-md-6 col-lg-4 col-xl-2 achievement">
+                    <i class="fas fa-thumbs-up"></i>
+                    <p class="achievement-number">1 823</p>
+                    <p class="achievement-text">Lubie To</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-2 achievement">
+                    <i class="fas fa-trophy"></i>
+                    <p class="achievement-number">2</p>
+                    <p class="achievement-text">miejsce w rankingu</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-2 achievement">
+                    <i class="fas fa-user-friends"></i>
+                    <p class="achievement-number">17</p>
+                    <p class="achievement-text">partnerzy</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-2 achievement">
+                    <i class="fas fa-award"></i>
+                    <p class="achievement-number">4</p>
+                    <p class="achievement-text">wyróżnienia</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-2 achievement">
+                    <i class="fas fa-money-bill-alt"></i>
+                    <p class="achievement-number">cena</p>
+                    <p class="achievement-text">zawsze konkurencyjna</p>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-2 achievement">
+                    <i class="fas fa-snowman"></i>
+                    <p class="achievement-number">7</p>
+                    <p class="achievement-text">najwiekszy bałwan</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact py-5">
+        <h2>kontakt</h2>
+        <div class="underline"></div>
+
+        <div class="container">
+            <div class="row text-center contact-us">
+                <div class="col-sm-6 col-lg-4 contact-item order-1">
+                    <h3>krynica-zdrój</h3>
+                    <p>ul. Niebywała 1</p>
+                    <p>+48 123 456 789</p>
+                    <p>sharksnow@email.com</p>
+                </div>
+                <div class="col-lg-4 order-0 order-lg-1 contact-item"></div>
+                    <h3>znajdz nas</h3>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/?lang=pl"><i class="fab fa-twitter"></i></a>
+                        <a href="https://pl.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                <div class="col-sm-6 col-lg-4  order-1">
+                    <h3>tylicz</h3>
+                    <p>ul. NIeznajoma 2</p>
+                    <p>+48 987 654 321</p>
+                    <p>sharksnow2@email.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-shadow"></div>
+    </section>
+</main>
+
+<footer class="bg-dark text-light py-4 text-center">
+    <p class="mb-0">&copy; Michał Szarek | strona portfolio </p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="js/aossettings.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slicksettings.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
